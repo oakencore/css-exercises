@@ -1,15 +1,35 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: tan;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  background-color: aqua;
+}
+
+.container{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plantybois{
+  background-color: yellow;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 200px;
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  background-color: blueviolet;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */

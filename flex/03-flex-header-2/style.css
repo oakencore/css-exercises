@@ -1,6 +1,6 @@
 /* this is some magical font-importing.  
 you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
 body {
   margin: 0;
@@ -8,18 +8,25 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.container {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+
 }
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 48px;
-  height:  48px;
+  height: 48px;
+  background-color: pink;
+  margin: 20px;
 }
 
 .logo {
@@ -27,6 +34,19 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 20px;
+  background-color: yellow;
+  align-content: flex-start;
+}
+.left-side{
+  display: flex;
+  background-color: red;
+}
+.right-side{
+  display: flex;
+  background-color: orange;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 button {
@@ -35,14 +55,23 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  background-color: green;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  background-color: orange;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+  background-color: aqua;
 }

@@ -5,16 +5,64 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  background-color: #eeeeee;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+li{
+  display: inline;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 img {
   width: 600px;
+  display: flex;
+  align-self: center;;
+  margin-top: 70px;
 }
 
 button {
   font-family: Roboto, sans-serif;
+  font-size: large;
   border: none;
   border-radius: 8px;
+  padding: 10px;
   background: #eee;
 }
 
